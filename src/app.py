@@ -58,7 +58,7 @@ X,y = ros.fit_resample(X_inb,y_inb)
 # Spliting the dataset into training and testing
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=40)
 # Random Forest Classifier with parameters hypertune
-pipeline = make_pipeline(StandardScaler(), RandomForestClassifier(n_estimators= 1600, min_samples_split = 2, min_samples_leaf = 1, max_features = 'auto', max_depth = 80, bootstrap = True))
+pipeline = make_pipeline(StandardScaler(), RandomForestClassifier(n_estimators= 1400, min_samples_split = 5, min_samples_leaf = 1, max_features = 'sqrt', max_depth = 30, bootstrap = True))
 pipeline.fit(X_train, y_train)
 y_pred=pipeline.predict(X_test)
 cm = confusion_matrix(y_test, y_pred, labels=pipeline.classes_)
