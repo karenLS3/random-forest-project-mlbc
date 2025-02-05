@@ -1,5 +1,6 @@
 # Random Forest Project
-> 4 Geeks Academy - project by @karenL26 :elf:
+> 4 Geeks Academy - ML and AI Bootcamp
+> Project by @karenL26 :elf:
 
 ## Overview
 The goal of this project is to build a predictive model that answers the question: *“what sorts of people were more likely to survive?”*.
