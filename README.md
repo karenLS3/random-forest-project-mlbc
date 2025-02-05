@@ -1,12 +1,16 @@
 # Random Forest Project
 > 4 Geeks Academy - project by @karenL26 :elf:
 
-The goal is to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). To be able to predict which passengers were more likely to survive will be used Random Forest to train the model.
+## Overview
+The goal of this project is to build a predictive model that answers the question: *“what sorts of people were more likely to survive?”*.
+Using passenger data (ie name, age, gender, socio-economic class, etc), we will train a *Random Forest* model to predict which passengers were more likely to survive.
 
-In this project you can find some basic exploratory analysis and the data preparation for modeling [here](src/explore_rf.ipynb).
+## Project Structure
+- Basic exploratory analysis and the data preparation can be found [here](src/explore_rf.ipynb).
 
-The model construction use Random Forest and it was applied to it hypertune. 
+- The Random Forest model was trained and tuned using hyperparameters. 
 
-The pipeline construction is [here](src/app.py).
+- The pipeline construction is [here](src/app.py).
 
-The dataset was obtained from this [link](https://raw.githubusercontent.com/4GeeksAcademy/random-forest-project-tutorial/main/titanic_train.csv).
+## Dataset
+The dataset was obtained from this [repository](https://github.com/pcsanwald/kaggle-titanic/blob/master/train.csv).
